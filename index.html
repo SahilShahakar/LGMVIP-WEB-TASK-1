@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Agri-Mart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <main>
+
+        <!-- ============================================= Header ====================================== -->
+
+        <header>
+            <!-- ========================== main logo ========================== -->
+            <container class="main-logo">
+                <a href="#">
+                    <img class="main-logo-image" src="icons\green-tea.png" alt="">
+                    <a href="#">Agri-Mart</a>
+                </a>
+            </container>
+            <!-- ========================== search bar ========================== -->
+            <div class="search">
+                <form action="#">
+                    <input type="text" placeholder=" Search" name="search">
+                    <button>
+                        <img src="icons\search.png" alt="icons\search.png">
+                    </button>
+                </form>
+            </div>
+
+            <!-- ========================== nav bar ========================== -->
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <div>
+                <nav class="navbar">
+                    <a href="#home">home</a>
+                    <a href="#speciality">special Offers</a>
+                    <a href="#popular">popular</a>
+                    <a href="#review">reviews</a>
+                    <a href="#order">order</a>
+                </nav>
+            </div>
+            
+        </header>
+
+        <!-- ============================================= Home ====================================== -->
+        <section class="home" id="home">
+            <container class="container-portrait">
+                <div class="background-image"></div>
+                <h2 class="text">Fresh Produce At <br> Your Doorsetep!
+                </h2>
+                <a href="#" class="btn">order now</a>
+            </container>
+
+            <container class="container-landscape-1">
+                <div class="background-image"></div>
+                <h2 class="text">Hassle Free<br>And Easy!
+                </h2>
+                <!--========================== Dropdown menu ==========================-->
+                <button onclick="myFunction()" class="dropbtn btn">Order Now</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#order-now">Tomatoes at 48 Rs/kg</a>
+                    <a href="#order-now">Cherry Tomatoes at 69 Rs/kg</a>
+                    <a href="#order-now">Roma Tomatoes at 98 Rs/kg</a>
+                </div>
+                </div>
+            </container>
+
+            <container class="container-landscape-2">
+                <div class="background-image"></div>
+                <h2 class="text">Locally Sourced!
+                </h2>
+                <a href="#" class="btn">order now</a>
+            </container>
+        </section>
+
+        <!-- ============================================= Special Offers ====================================== -->
+
+        <section class="special-offers">
+            <a name="speciality">
+                <h1>Special Offers!</h1>
+            </a>
+            <div class="special-offers-container">
+
+                <div class="containers container1">
+                    <div class="back-image">
+                    </div>
+                    <div class="content-box">
+                        <img class="special-offers-icon" src="icons\tomato.png" alt="icons\tomato.png">
+                        <h3>Vegetables At 10% Off!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+                <div class="containers container2">
+                    <div class="back-image">
+                    </div>
+                    <div class="content-box">
+                        <img class="special-offers-icon" src="icons\eggs.png" alt="icons\eggs.png">
+                        <h3>Poultry Products At 5% Off!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+                <div class="containers container3">
+                    <div class="back-image">
+                    </div>
+                    <div class="content-box">
+                        <img class="special-offers-icon" src="icons\dairy-products.png" alt="icons\dairy-products.png">
+                        <h3>Get 1 Dairy Product For Free!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+
+                </div>
+
+                <div class="containers container4">
+                    <div class="back-image">
+                    </div>
+                    <div class="content-box">
+                        <img class="special-offers-icon" src="icons\rice.png" alt="icons\rice.png">
+                        <h3>13% Off on Flours!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+                <div class="containers container5">
+                    <div class="back-image">
+                    </div>
+                    <div class="content-box">
+                        <img class="special-offers-icon" src="icons\grain.png" alt="icons\grain.png">
+                        <h3>20% Off On Grains For Orders Over 8Kgs!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+                <div class="containers container6">
+                    <div class="back-image">
+                    </div>
+                    <div class="content-box">
+                        <img class="special-offers-icon" src="icons\apple.png" alt="icons\apple.png">
+                        <h3>Flat 13% Off On All Fruits!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============================================= Popular Section ====================================== -->
+
+        <section class="popular" id="popular">
+
+            <h1 class="heading"> popular Items</h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <span class="price"> 35 Rs/kg</span>
+                    <img src="images\vivek-sharma-mCWOGEdfngA-unsplash.jpg" alt="">
+                    <h3>Onions</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="box">
+                    <span class="price"> 45 Rs/kg </span>
+                    <img src="images\earl-wilcox-hx-uPDHGpt8-unsplash (1).jpg" alt="">
+                    <h3>Tomatoes</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="box">
+                    <span class="price">200 Rs/Kg</span>
+                    <img src="images\estudio-bloom-oo3kSFZ7uHk-unsplash.jpg" alt="">
+                    <h3>Green Apples</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="box">
+                    <span class="price">95 Rs/kg </span>
+                    <img src="images\olivia-watson-YrGa20k9Coo-unsplash.jpg" alt="">
+                    <h3>Strawberries</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="box">
+                    <span class="price"> 30 Rs/kg</span>
+                    <img src="images\monika-stawowy-HDMqkYF06dQ-unsplash.jpg" alt="">
+                    <h3>Potatoes</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="box">
+                    <span class="price">65 Rs/Dosen</span>
+                    <img src="images\hello-i-m-nik-p1RQPfzCM5U-unsplash.jpg" alt="">
+                    <h3>Eggs</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ============================================= Reviews Section ====================================== -->
+
+        <section class="review" id="review">
+            <div class="reviews-container">
+                <h1 class="heading"> our customers reviews</h1>
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images\review-image1.jpg" alt="">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere
+                            quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+                    </div>
+                    <div class="box">
+                        <img src="images\review-image-2.jpg" alt="">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere
+                            quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+                    </div>
+                    <div class="box">
+                        <img src="images\review-image3.jpg" alt="">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere
+                            quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!-- ============================================= Order Now====================================== -->
+
+        <section class="order" id="order">
+
+            <div class="order-now-container">
+                <a name="order-now">
+                    <h1 class="heading"> <span>order</span> now </h1>
+
+                    <div class="row">
+
+                        <div class="image">
+                            <img src="images\visual-stories-micheile-1SjD5ZEiUsA-unsplash.jpg" alt="">
+                        </div>
+
+                        <form action="">
+
+                            <div class="inputBox">
+                                <input type="text" placeholder="name">
+                                <input type="email" placeholder="email">
+                            </div>
+
+                            <div class="inputBox">
+                                <input type="number" placeholder="number">
+                                <input type="text" placeholder="item name">
+                            </div>
+
+                            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+                            <input type="submit" value="order now" class="btn">
+
+                        </form>
+
+                    </div>
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- ============================================= Footer ====================================== -->
+
+        <footer class="footer">
+
+            <div class="share">
+                <a href="#" class="btn">facebook</a>
+                <a href="#" class="btn">twitter</a>
+                <a href="#" class="btn">instagram</a>
+                <a href="#" class="btn">pinterest</a>
+                <a href="#" class="btn">linkedin</a>
+            </div>
+
+            <p class="credit">Made by Sahil Shahakar  |  All Rights Reserved</p>
+        </footer>
+
+    </main>
+
+    <!-- scroll top button  -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+    </div>
+
+    <script src='main.js'></script>
+
+</body>
+
+</html>
